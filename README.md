@@ -6,7 +6,7 @@
    ## Features
 
    - Lists Chrome apps and PWAs installed in the user's local applications directory
-   - Displays app names and corresponding .desktop filenames
+   - Displays app names and corresponding .desktop filenames or Exec commands
    - Handles complex .desktop files with multiple entries
 
    ## Requirements
@@ -30,3 +30,6 @@
    ## License
 
    This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+  - New -E flag to display full Exec commands instead of filenames
+

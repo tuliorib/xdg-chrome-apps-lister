@@ -38,3 +38,14 @@
    - Check that you have the necessary permissions to read the .desktop files
    ```
 
+
+## New Feature: Display Exec Commands
+
+To display the full Exec commands for Chrome apps instead of filenames, use the -E flag:
+
+```
+./list-chrome-apps.sh -E
+```
+
+This will show the Name and corresponding Exec Command for each Chrome app or PWA.
+
